@@ -12,3 +12,14 @@ This workshop is designed for an audience looking at an introduction to Serverle
 
 Costs
 In this workshop, you will create various types of AWS cloud resources. This workshop will not incur any costs when run using AWS Event Dashboard at an AWS Event. If you plan to run the workshop on your own, please make sure to check and understand the AWS Free Tier page  to avoid incurring unnecessary costs.
+
+Steps
+Create a DynamoDB table
+Create a lambda function
+Create an HTTP API
+Create routes
+Create an integration
+Attach your integration to routes
+Access to Cloud9
+Test your API
+Clean UP!
