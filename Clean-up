@@ -1,0 +1,37 @@
+Clean UP!
+To prevent unnecessary costs, delete the resources that you created as part of this getting started exercise. The following steps delete your HTTP API, your Lambda function, and associated resources.
+
+If this is an event organized by AWS, you don't need to follow the steps below. The environment will be terminated after the event has concluded.
+
+1. To delete an DynamoDB table:
+Open the DynamoDB console at https://console.aws.amazon.com/dynamodb/ 
+Select your table.
+Choose Delete table.
+Confirm your choice, and choose Delete.
+
+2. To delete an HTTP API:
+Sign in to the API Gateway console at https://console.aws.amazon.com/apigateway 
+On the APIs page, select an API. Choose Actions, and then choose Delete.
+Choose Delete.
+
+3. To delete a Lambda function:
+Sign in to the Lambda console at https://console.aws.amazon.com/lambda/ 
+On the Functions page, select a function. Choose Actions, and then choose Delete.
+Choose Delete.
+
+4. To delete a Lambda function's log group:
+In the Amazon CloudWatch console, open the Log groups page 
+On the Log groups page, select the function's log group (/aws/lambda/http-crud-tutorial-function). Choose Actions, and then choose Delete log group.
+Choose Delete.
+
+5. To delete a Lambda function's execution role:
+In the AWS Identity and Access Management console, open the Roles page 
+Select the function's role, for example, http-crud-tutorial-role.
+Choose Delete role.
+Choose Yes, delete.
+
+6. To delete the Cloud9 IDE:
+Sign in to the Cloud9 console at https://console.aws.amazon.com/cloud9/ 
+In the Your environments page, an IDE. Choose Delete.
+To confirm your choice type Delete.
+Choose Delete.
