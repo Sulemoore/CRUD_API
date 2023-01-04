@@ -15,7 +15,8 @@ In this workshop, you will create various types of AWS cloud resources. This wor
 
 Steps
 1. Create a DynamoDB table
-2. Create a lambda function
+2. Create a![Screenshot 2023-01-01 at 10 57 35 PM](https://user-images.githubusercontent.com/101164153/210481204-0e802714-a8bd-46be-a174-8f2bbe22b736.png)
+ lambda function
 3. Create an HTTP API
 4. Create routes
 5. Create an integration
